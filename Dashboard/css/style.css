@@ -26,6 +26,13 @@ a{
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    padding-right: 180rem;
+
+}
+
+.bedrijfslogo{
+    height: 5rem;
+    width: 5rem;
 }
 
 .dashboard{
@@ -111,15 +118,72 @@ p{
 
 /*Eerste Blokje Klaar*/
 
+/* tweede blok*/
 .tweede{
     background-color: #3E3E3E;
     width: 49rem;
     height: 32rem;
-    border-radius: 20px;
+    border-radius: 2rem;
     grid-column: 1;
+    padding: 3rem;
+    display: flex;
 }
 
-.deerde{
+.black{
+    background: #3E3E3E;
+    width: 22rem;
+    height: 29rem;
+    flex-direction: column;
+}
+
+.black2{
+    background: #3E3E3E;
+    width: 20rem;
+    height: 29rem;
+}
+
+
+.zonsopkomst{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+}
+
+.zonsopkomstimg{
+    height: 20rem;
+    width: 20rem;
+}
+
+.zonsondergangimg{
+    height: 19rem;
+    width: 19rem;
+    padding-top: 1rem;
+}
+
+.zonsondergang{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-bottom: 1rem;
+}
+
+.zonParagraaf{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-left: 1.5rem;
+}
+
+.zonParagraaf2{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-left: 1.5rem;
+}
+
+/*tweede blok klaar*/
+
+.derde{
     grid-column: 1;
     background-color: #3E3E3E;
     width: 49rem;

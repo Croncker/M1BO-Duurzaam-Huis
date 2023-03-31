@@ -33,3 +33,16 @@ $(document).ready(() => {
     }
   });
 });
+
+const zonParagraaf = document.getElementById("zonParagraaf");
+const zonParagraaf2 = document.getElementById("zonParagraaf2");
+let data = fetch("https://api.sunrisesunset.io/json?lat=52.3910379&lng=4.8569872&timezone=UTC&date=today")
+  .then(
+    function(binnengekomendata){
+        return binnengekomendata.json();
+    }).then(
+        function(echtedata){
+            zonParagraaf.innerText = echtedata.results.sunrise;
+            zonParagraaf2.innerText = echtedata.results.sunset;
+        }
+    );
