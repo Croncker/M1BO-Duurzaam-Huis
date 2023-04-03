@@ -22,17 +22,22 @@ a{
 .header{
     background: #1A1616;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    padding-right: 180rem;
 
 }
 
+.bedrijfsnaam{
+    color: white;
+    font-size: 5rem;
+    font-family: sans-serif;
+    padding-right: 2rem;
+}
+
 .bedrijfslogo{
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
 }
 
 .dashboard{
