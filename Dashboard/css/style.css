@@ -12,13 +12,6 @@ body{
     background: #302C2C;
 }
 
-a{
-    text-decoration: none;
-    font-size: 3rem;
-    color: white;
-    font-family: sans-serif;
-}
-
 .header{
     background: #1A1616;
     display: flex;
@@ -26,6 +19,18 @@ a{
     justify-content: center;
     align-items: center;
     padding: 2rem;
+}
+
+.bedrijfsnaam{
+    color: white;
+    font-size: 5rem;
+    font-family: sans-serif;
+    padding-right: 2rem;
+}
+
+.bedrijfslogo{
+    height: 6rem;
+    width: 6rem;
 }
 
 .dashboard{
@@ -45,7 +50,7 @@ p{
     justify-content: center;
 }
 
-/*Eerste Blokje*/
+/*Eerste Blok*/
 
 .eerste{
     background-color: #3E3E3E;
@@ -109,7 +114,73 @@ p{
     align-items: center;
 }
 
-/*Eerste Blokje Klaar*/
+/*Eerste Blok Klaar*/
+
+/*Tweede Blok Begin*/
+
+.tweede{
+    background-color: #3E3E3E;
+    width: 49rem;
+    height: 32rem;
+    border-radius: 2rem;
+    grid-column: 1;
+    padding: 3rem;
+    display: flex;
+}
+
+.black{
+    background: #3E3E3E;
+    width: 22rem;
+    height: 29rem;
+    flex-direction: column;
+}
+
+.black2{
+    background: #3E3E3E;
+    width: 20rem;
+    height: 29rem;
+}
+
+
+.zonsopkomst{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+}
+
+.zonsopkomstimg{
+    height: 20rem;
+    width: 20rem;
+}
+
+.zonsondergangimg{
+    height: 19rem;
+    width: 19rem;
+    padding-top: 1rem;
+}
+
+.zonsondergang{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-bottom: 1rem;
+}
+
+.zonParagraaf{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-left: 1.5rem;
+}
+
+.zonParagraaf2{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-left: 1.5rem;
+}
+
+/*Tweede Blok Klaar*/
 
 .tweede{
     background-color: #3E3E3E;

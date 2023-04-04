@@ -5,35 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <header class="header">
-        <a href="">Logo</a>
+        <h2 class="bedrijfsnaam">LuMeAy</h2>
+        <img class="bedrijfslogo" src="img/LuMeAy_logo-removebg-preview.png" alt="">
         <nav>
             <ul>
                 <li><a href=""></a></li>
             </ul>
         </nav>
     </header>
-
+    
     <section class="dashboard">
         <div class="eerste">
             <p class="weerbericht">Weerbericht</p>
             <div class="zon">
-                <img src="/img/Screenshot_2.png" alt="Teken-zon">
+                <img src="img/Screenshot_2.png" alt="Teken-zon">
                 <div class="temperature"></div>
             </div>
             <p class="weerbericht">Amsterdam</p>
             <div class="blue">
                 <div class="time" id="time"></div>
                 <div class="date" id="day"></div>
-                <div class="date" id="month"></div>
+                <div class="date" id="datum"></div>
             </div>
         </div>
         <div class="tweede">
-            <p>Zons en Ondergang</p>
+            <div class="black">
+                <h3 class="zonsopkomst">Zonsopkomst</h3>
+                <img class="zonsopkomstimg" src="img/173834308-een-halve-zon-gaat-naar-beneden-pictogram-vector-zonsondergang-concept-voor-grafisch-ontwerp-logo-removebg-preview.png" alt="">
+                <h3 class="zonParagraaf" id="zonParagraaf"></h3>
+            </div>
+            <div class="black2">
+                <h3 class="zonsondergang">Zonsondergang</h3>
+                <img class="zonsondergangimg" src="img/download-removebg-preview.png" alt="">
+                <h3 class="zonParagraaf2" id="zonParagraaf2"></h3>
+            </div>
         </div>
         <div class="deerde">
             <p>Energie Verbruik Apparaten</p>
