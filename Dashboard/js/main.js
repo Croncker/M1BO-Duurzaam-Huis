@@ -45,8 +45,11 @@ $(document).ready(() => {
   });
 });
 
+<<<<<<< HEAD
 //Zonsondegang//
 
+=======
+>>>>>>> 140cbb6840db72655517b58fc8656d47796fb0a4
 const zonParagraaf = document.getElementById("zonParagraaf");
 const zonParagraaf2 = document.getElementById("zonParagraaf2");
 let data = fetch("https://api.sunrisesunset.io/json?lat=52.3910379&lng=4.8569872&timezone=UTC&date=today")
