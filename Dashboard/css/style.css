@@ -269,7 +269,7 @@ p{
 }
 
 .vierde{
-    background-color: #3E3E3E;
+    background-color: #3e3e3e;
     height: 39rem;
     border-radius: 20px;
     grid-column: 1 / 3;
@@ -292,4 +292,68 @@ p{
     border-radius: 20px;
     grid-column: 2;
     grid-row: 1 / 4;
+  
+
+}
+
+.lichtja{
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lichtjaimg{
+   
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.lampja{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.lichtnee{
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lichtneeimg{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19rem;
+    height: 19rem;
+
+}
+
+.lampnee{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-top: 1  rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
 }
