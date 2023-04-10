@@ -88,3 +88,32 @@ const config = {
 };
 
 new Chart(document.getElementById("energieCanvas"), config);
+
+
+
+const labels1 = [
+  "januari",
+  "februari",
+  "maart",
+  "april",
+  "mei",
+  
+];
+
+const datastroomVerbuik = {
+  labels: labels1,
+  datasets:[
+      {
+          label: "stroomVerbruik .",
+          data: [207.199635,339.499346, 280.011994, 267.361701, 297.361701,],
+          backgroundColor: ["#ff6b6b", "#ffd93d", "#6bcb77", "#4d96ff"]
+      }
+  ]
+};
+
+const config1 = {
+  type: "line",
+  data: datastroomVerbuik,
+};
+
+new Chart(document.getElementById("stroomCanvas"), config1);
