@@ -59,3 +59,32 @@ let data = fetch("https://api.sunrisesunset.io/json?lat=52.3910379&lng=4.8569872
             zonParagraaf2.innerText = echtedata.results.sunset;
         }
     );
+
+
+const labels = [
+    "Wasmachine",
+    "Stofzuiger",
+    "Verwarming",
+    "Droger",
+    "vaatwasser",
+    "koelkast",
+    "vriezer",
+];
+
+const dataEnergieVerbuik = {
+    labels: labels,
+    datasets:[
+        {
+            label: "EnergieVerbruik apparaten in kWh in een jaar.",
+            data: [100, 80, 500, 130, 200, 400, 250],
+            backgroundColor: ["#ff6b6b", "#ffd93d", "#6bcb77", "#4d96ff"]
+        }
+    ]
+};
+
+const config = {
+    type: "bar",
+    data: dataEnergieVerbuik,
+};
+
+new Chart(document.getElementById("energieCanvas"), config);

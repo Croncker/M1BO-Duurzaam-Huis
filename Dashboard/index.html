@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Dashboard DuurzaamHuis">
+    <meta name="description" content="In dit Dashboard vind je alle benodigdheden voor jou duurzaam huis. Je vind "> 
     <title>Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/main.js" defer></script>
 </head>
 <body>
@@ -46,7 +49,7 @@
             </div>
         </div>
         <div class="derde">
-            <p>Energie Verbruik Apparaten</p>
+            <canvas id="energieCanvas"></canvas>
         </div>
         <div class="vierde">
             <p>Gasverbruik</p>
@@ -55,7 +58,6 @@
             <p>Stroomverbruik</p>
         </div>
         <div class="zesde">
-            <p>Smart Home</p>
             <h3 class="lichtja"> Licht = Ja</h3>
             <img class="lichtjaimg" src="img/—Pngtree—lightbulb lamp icon design template_5895657.png" alt="">
             <h3 class="lampja"> Lampen gaan uit </h3>
