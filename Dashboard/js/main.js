@@ -136,7 +136,7 @@ const datagasVerbuik = {
   datasets:[
       {
           label: "gasVerbruik .",
-          data: [207.199635,339.499346, 280.011994, 267.361701, 297.361701,234,243],
+          data: [85.726689,221.151088, 188.0141, 227.361701, 158.611141,134,243],
           backgroundColor: ["#ff6b6b", "#ffd93d", "#6bcb77", "#4d96ff"]
       }
   ]
@@ -145,6 +145,9 @@ const datagasVerbuik = {
 const config2 = {
   type: "line",
   data: datagasVerbuik,
+  
 };
+
+
 
 new Chart(document.getElementById("gasCanvas"), config2);
