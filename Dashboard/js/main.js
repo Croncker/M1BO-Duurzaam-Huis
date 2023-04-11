@@ -117,3 +117,34 @@ const config1 = {
 };
 
 new Chart(document.getElementById("stroomCanvas"), config1);
+
+
+
+const labels2 = [
+  "januari",
+  "februari",
+  "maart",
+  "april",
+  "mei",
+  
+
+  
+];
+
+const datagasVerbuik = {
+  labels: labels2,
+  datasets:[
+      {
+          label: "gasVerbruik .",
+          data: [207.199635,339.499346, 280.011994, 267.361701, 297.361701,234,243],
+          backgroundColor: ["#ff6b6b", "#ffd93d", "#6bcb77", "#4d96ff"]
+      }
+  ]
+};
+
+const config2 = {
+  type: "line",
+  data: datagasVerbuik,
+};
+
+new Chart(document.getElementById("gasCanvas"), config2);
