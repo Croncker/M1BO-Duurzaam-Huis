@@ -76,8 +76,10 @@ const dataEnergieVerbuik = {
     datasets:[
         {
             label: "EnergieVerbruik apparaten in kWh in een jaar.",
+            
             data: [100, 80, 500, 130, 200, 400, 250],
-            backgroundColor: ["#ff6b6b", "#ffd93d", "#6bcb77", "#4d96ff"]
+            backgroundColor: ["#31A29F", "#31A29F", "#31A29F", "#31A29F"]
+            
         }
     ]
 };
@@ -106,7 +108,7 @@ const datastroomVerbuik = {
       {
           label: "stroomVerbruik .",
           data: [207.199635,339.499346, 280.011994, 267.361701, 297.361701,],
-          backgroundColor: ["#ff6b6b", "#ffd93d", "#6bcb77", "#4d96ff"]
+          backgroundColor: ["#31A29F", "#31A29F", "#31A29F", "#31A29F"]
       }
   ]
 };
@@ -137,7 +139,9 @@ const datagasVerbuik = {
       {
           label: "gasVerbruik .",
           data: [85.726689,221.151088, 188.0141, 227.361701, 158.611141,134,243],
-          backgroundColor: ["#ff6b6b", "#ffd93d", "#6bcb77", "#4d96ff"]
+          backgroundColor: ["#31A29F", "#31A29F", "#31A29F", "#31A29F"]
+          
+          
       }
   ]
 };
