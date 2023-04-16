@@ -61,6 +61,8 @@ let data = fetch("https://api.sunrisesunset.io/json?lat=52.3910379&lng=4.8569872
     );
 
 
+// Grafieken
+
 const labels = [
     "Wasmachine",
     "Stofzuiger",
