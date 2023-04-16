@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: #302C2C;
+}
+
+.header{
+    background: #1A1616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.bedrijfsnaam{
+    color: white;
+    font-size: 5rem;
+    font-family: sans-serif;
+    padding-right: 2rem;
+}
+
+.bedrijfslogo{
+    height: 6rem;
+    width: 6rem;
+}
+
+.bedrijfsnaam{
+    color: white;
+    font-size: 5rem;
+    font-family: sans-serif;
+    padding-right: 2rem;
+}
+
+.bedrijfslogo{
+    height: 6rem;
+    width: 6rem;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-gap: 40px;
+    margin-top: 40px;
+    padding: 2rem;
+}
+
+p{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*Eerste Blok*/
+
+.eerste{
+    background-color: #3E3E3E;
+    width: 49rem;
+    height: 32rem;
+    border-radius: 20px;
+}
+
+.weerbericht{
+    margin-top: 1rem;
+    margin-left: 24rem;
+    font-size: 4rem;
+}
+
+.eerste > .zon > img{
+    width: 45%;
+    margin-left: 260px;
+    margin-top: 10px;
+}
+
+.zon{
+    position: relative;
+}
+
+.temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 325px;
+    padding: 10px;
+}
+
+.time {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.date {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.blue{
+    background-color: #31A29F;
+    width: 24.5rem;
+    height: 32rem;
+    border-radius: 20px;
+    margin-top: -306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Eerste Blok Klaar*/
+
+/*Tweede Blok Begin*/
+
+.tweede{
+    background-color: #3E3E3E;
+    width: 49rem;
+    height: 32rem;
+    border-radius: 2rem;
+    grid-column: 1;
+    padding: 3rem;
+    display: flex;
+}
+
+.black{
+    background: #3E3E3E;
+    width: 22rem;
+    height: 29rem;
+    flex-direction: column;
+}
+
+.black2{
+    background: #3E3E3E;
+    width: 20rem;
+    height: 29rem;
+}
+
+
+.zonsopkomst{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+}
+
+.zonsopkomstimg{
+    height: 20rem;
+    width: 20rem;
+}
+
+.zonsondergangimg{
+    height: 19rem;
+    width: 19rem;
+    padding-top: 1rem;
+}
+
+.zonsondergang{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-bottom: 1rem;
+}
+
+.zonParagraaf{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-left: 1.5rem;
+}
+
+.zonParagraaf2{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-left: 1.5rem;
+}
+
+/*Tweede Blok Klaar*/
+
+/* tweede blok*/
+.tweede{
+    background-color: #3E3E3E;
+    width: 49rem;
+    height: 32rem;
+    border-radius: 2rem;
+    grid-column: 1;
+    padding: 3rem;
+    display: flex;
+}
+
+.black{
+    background: #3E3E3E;
+    width: 22rem;
+    height: 29rem;
+    flex-direction: column;
+}
+
+.black2{
+    background: #3E3E3E;
+    width: 20rem;
+    height: 29rem;
+}
+
+
+.zonsopkomst{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+}
+
+.zonsopkomstimg{
+    height: 20rem;
+    width: 20rem;
+}
+
+.zonsondergangimg{
+    height: 19rem;
+    width: 19rem;
+    padding-top: 1rem;
+}
+
+.zonsondergang{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-bottom: 1rem;
+}
+
+.zonParagraaf{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-left: 1.5rem;
+}
+
+.zonParagraaf2{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-left: 1.5rem;
+}
+
+/*tweede blok klaar*/
+
+.derde{
+    grid-column: 1;
+    background-color: #3E3E3E;
+    width: 49rem;
+    height: 32rem;
+    border-radius: 20px;
+    grid-column: 1;
+}
+
+.vierde{
+    background-color: #3E3E3E;
+    height: 39rem;
+    border-radius: 20px;
+    grid-column: 1 / 3;
+    margin-top: -40px;
+}
+
+.vijfde{
+    background-color: #3E3E3E;
+    width: 49rem;
+    height: 32rem;
+    border-radius: 20px;
+    grid-column: 2;
+    grid-row: 3 / 5;
+}
+
+.zesde{
+    background-color: #3E3E3E;
+    width: 49rem;
+    height: 68rem;
+    border-radius: 20px;
+    grid-column: 2;
+    grid-row: 1 / 4;
+}
+
+.lichtja{
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lichtjaimg{
+   
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.lampja{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.lichtnee{
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lichtneeimg{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19rem;
+    height: 19rem;
+
+}
+
+.lampnee{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #eee;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.energie{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.stroom{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+}
+
